@@ -12,8 +12,8 @@ $name = $_POST['name'];
 $email_address = $_POST['email']; 
 $message = $_POST['comment']; 
 
-if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+if (!preg_match(
 $email_address))
 {
     $errors .= "\n Error: Invalid email address";
