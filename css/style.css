@@ -1813,6 +1813,13 @@ body.light .personal-info ul h6 {
   margin: 0;
 }
 
+.carousel iframe {
+  width: 100%;
+  height: auto;
+  min-height: 390px;
+  margin: 0;
+}
+
 .carousel-controls {
   width: 50px;
   height: 50px;
@@ -2965,6 +2972,10 @@ ul.social-intro li a:hover i {
   }
 
   .carousel img {
+    margin: 0 auto;
+  }
+
+  .carousel iframe {
     margin: 0 auto;
   }
 
